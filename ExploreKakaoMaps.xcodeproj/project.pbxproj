@@ -7,23 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D8377A062C1F28EB005AE2DC /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8377A052C1F28EA005AE2DC /* MapViewController.swift */; };
 		D8A80AC62C1DC85A002FF223 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A80AC52C1DC85A002FF223 /* AppDelegate.swift */; };
 		D8A80AC82C1DC85A002FF223 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A80AC72C1DC85A002FF223 /* SceneDelegate.swift */; };
-		D8A80ACA2C1DC85A002FF223 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A80AC92C1DC85A002FF223 /* ViewController.swift */; };
-		D8A80ACD2C1DC85A002FF223 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = D8A80ACC2C1DC85A002FF223 /* Base */; };
 		D8A80ACF2C1DC85E002FF223 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8A80ACE2C1DC85E002FF223 /* Assets.xcassets */; };
 		D8A80AD22C1DC85E002FF223 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = D8A80AD12C1DC85E002FF223 /* Base */; };
+		D8A80ADB2C1DCAF6002FF223 /* KakaoMapsSDK-SPM in Frameworks */ = {isa = PBXBuildFile; productRef = D8A80ADA2C1DCAF6002FF223 /* KakaoMapsSDK-SPM */; };
+		D8A80ADF2C1DCD2D002FF223 /* SDKAPIKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A80ADE2C1DCD2D002FF223 /* SDKAPIKey.swift */; };
+		D8A80AE22C1DCE33002FF223 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = D8A80AE12C1DCE33002FF223 /* SnapKit */; };
+		D8A80AE42C1DCE33002FF223 /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = D8A80AE32C1DCE33002FF223 /* SnapKit-Dynamic */; };
+		D8A80AE62C1DCE91002FF223 /* BaseMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A80AE52C1DCE91002FF223 /* BaseMapViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D8377A052C1F28EA005AE2DC /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		D8A80AC22C1DC85A002FF223 /* ExploreKakaoMaps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExploreKakaoMaps.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8A80AC52C1DC85A002FF223 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D8A80AC72C1DC85A002FF223 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D8A80AC92C1DC85A002FF223 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D8A80ACC2C1DC85A002FF223 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D8A80ACE2C1DC85E002FF223 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D8A80AD12C1DC85E002FF223 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D8A80AD32C1DC85E002FF223 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8A80ADE2C1DCD2D002FF223 /* SDKAPIKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDKAPIKey.swift; sourceTree = "<group>"; };
+		D8A80AE52C1DCE91002FF223 /* BaseMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseMapViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +36,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8A80ADB2C1DCAF6002FF223 /* KakaoMapsSDK-SPM in Frameworks */,
+				D8A80AE22C1DCE33002FF223 /* SnapKit in Frameworks */,
+				D8A80AE42C1DCE33002FF223 /* SnapKit-Dynamic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,11 +66,12 @@
 			children = (
 				D8A80AC52C1DC85A002FF223 /* AppDelegate.swift */,
 				D8A80AC72C1DC85A002FF223 /* SceneDelegate.swift */,
-				D8A80AC92C1DC85A002FF223 /* ViewController.swift */,
-				D8A80ACB2C1DC85A002FF223 /* Main.storyboard */,
+				D8A80AE52C1DCE91002FF223 /* BaseMapViewController.swift */,
+				D8377A052C1F28EA005AE2DC /* MapViewController.swift */,
 				D8A80ACE2C1DC85E002FF223 /* Assets.xcassets */,
 				D8A80AD02C1DC85E002FF223 /* LaunchScreen.storyboard */,
 				D8A80AD32C1DC85E002FF223 /* Info.plist */,
+				D8A80ADE2C1DCD2D002FF223 /* SDKAPIKey.swift */,
 			);
 			path = ExploreKakaoMaps;
 			sourceTree = "<group>";
@@ -83,6 +92,11 @@
 			dependencies = (
 			);
 			name = ExploreKakaoMaps;
+			packageProductDependencies = (
+				D8A80ADA2C1DCAF6002FF223 /* KakaoMapsSDK-SPM */,
+				D8A80AE12C1DCE33002FF223 /* SnapKit */,
+				D8A80AE32C1DCE33002FF223 /* SnapKit-Dynamic */,
+			);
 			productName = ExploreKakaoMaps;
 			productReference = D8A80AC22C1DC85A002FF223 /* ExploreKakaoMaps.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +125,10 @@
 				Base,
 			);
 			mainGroup = D8A80AB92C1DC85A002FF223;
+			packageReferences = (
+				D8A80AD92C1DCAF6002FF223 /* XCRemoteSwiftPackageReference "KakaoMapsSDK-SPM" */,
+				D8A80AE02C1DCE33002FF223 /* XCRemoteSwiftPackageReference "snapkit" */,
+			);
 			productRefGroup = D8A80AC32C1DC85A002FF223 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,7 +145,6 @@
 			files = (
 				D8A80ACF2C1DC85E002FF223 /* Assets.xcassets in Resources */,
 				D8A80AD22C1DC85E002FF223 /* Base in Resources */,
-				D8A80ACD2C1DC85A002FF223 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +155,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D8A80ACA2C1DC85A002FF223 /* ViewController.swift in Sources */,
 				D8A80AC62C1DC85A002FF223 /* AppDelegate.swift in Sources */,
 				D8A80AC82C1DC85A002FF223 /* SceneDelegate.swift in Sources */,
+				D8A80AE62C1DCE91002FF223 /* BaseMapViewController.swift in Sources */,
+				D8377A062C1F28EB005AE2DC /* MapViewController.swift in Sources */,
+				D8A80ADF2C1DCD2D002FF223 /* SDKAPIKey.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D8A80ACB2C1DC85A002FF223 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D8A80ACC2C1DC85A002FF223 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D8A80AD02C1DC85E002FF223 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -296,7 +307,6 @@
 				INFOPLIST_FILE = ExploreKakaoMaps/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -323,7 +333,6 @@
 				INFOPLIST_FILE = ExploreKakaoMaps/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -361,6 +370,43 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D8A80AD92C1DCAF6002FF223 /* XCRemoteSwiftPackageReference "KakaoMapsSDK-SPM" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kakao-mapsSDK/KakaoMapsSDK-SPM.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.10.5;
+			};
+		};
+		D8A80AE02C1DCE33002FF223 /* XCRemoteSwiftPackageReference "snapkit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/snapkit/snapkit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D8A80ADA2C1DCAF6002FF223 /* KakaoMapsSDK-SPM */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D8A80AD92C1DCAF6002FF223 /* XCRemoteSwiftPackageReference "KakaoMapsSDK-SPM" */;
+			productName = "KakaoMapsSDK-SPM";
+		};
+		D8A80AE12C1DCE33002FF223 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D8A80AE02C1DCE33002FF223 /* XCRemoteSwiftPackageReference "snapkit" */;
+			productName = SnapKit;
+		};
+		D8A80AE32C1DCE33002FF223 /* SnapKit-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D8A80AE02C1DCE33002FF223 /* XCRemoteSwiftPackageReference "snapkit" */;
+			productName = "SnapKit-Dynamic";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D8A80ABA2C1DC85A002FF223 /* Project object */;
 }
